@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-with, initial-scale=1.0">
+    <title>EDSIKAN COMPANY LIMITED</title>
+    <link rel="stylesheet" href="style.css"><link rel="preconnect" href="http://fonts.gstatic.com">
+    <link href="https://fonts.googlepis.com/css2? family=poppins:wght@100;200;300;400;600;700dispaly=swap " rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="LOGO.png"></a>
+            <div>
+                <h2 class="logo">EDSIKAN</h2>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" >HOME</a></li>
+                    <li><a href="EVENTS.html">EVENTS </a></li>
+                    <li><a href="PUBLICATIONS.html">PUBLICATIONS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>PUBLICATIONS</h1>
+    </section>
+    <!------------- PUBLICATIONS content ------------>
+
+    <section class="PUBLICATIONS">
+
+            <div class="row">
+                <div class="PUBLICATIONS-col">
+                    <h1>NO PUBLICATIONS AVALIABLE</h1>
+
+                </div>
+            </div>
+       
+
+
+
+    </section>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+   
+
+
+
+</script>
+
+</body>
+</html>
